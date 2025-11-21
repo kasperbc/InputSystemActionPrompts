@@ -10,7 +10,7 @@ namespace InputSystemActionPrompts
         /// <summary>
         /// This should be the full path, including binding map and action, eg "Player/Move"
         /// </summary>
-        [SerializeField] private string m_Action = "Player/Move";
+        public string m_Action = "Player/Move";
         
         /// <summary>
         /// The image to apply the prompt sprite to

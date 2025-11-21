@@ -168,7 +168,6 @@ namespace InputSystemActionPrompts
                 replacementTagText = string.Format(promptSpriteFormatter, replacementTagText);
 
                 replacedText = replacedText.Replace($"{s_Settings.OpenTag}{tag}{s_Settings.CloseTag}", replacementTagText);
-                break;
             }
 
             return replacedText;
