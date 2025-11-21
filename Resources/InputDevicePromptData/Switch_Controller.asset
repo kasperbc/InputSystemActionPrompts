@@ -15,6 +15,7 @@ MonoBehaviour:
   DeviceTypes: 02000000
   DeviceNames:
   - SwitchProControllerHID
+  - SwitchProControllerHID1
   DeviceDescription: Switch Pro Controller or Joycons
   SpriteAsset: {fileID: 11400000, guid: ff2fabd89f29c4e489f4994510f114f9, type: 2}
   ActionBindingPromptEntries:
