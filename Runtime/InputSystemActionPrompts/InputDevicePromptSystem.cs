@@ -166,8 +166,9 @@ namespace InputSystemActionPrompts
                 //PromptSpriteFormatter in settings uses {SPRITE} as a placeholder for the sprite, convert it to {0} for string.Format
                 promptSpriteFormatter = promptSpriteFormatter.Replace( InputSystemDevicePromptSettings.PromptSpriteFormatterSpritePlaceholder, "{0}");
                 replacementTagText = string.Format(promptSpriteFormatter, replacementTagText);
-                
+
                 replacedText = replacedText.Replace($"{s_Settings.OpenTag}{tag}{s_Settings.CloseTag}", replacementTagText);
+                break;
             }
 
             return replacedText;
